@@ -1,0 +1,81 @@
+<html> 
+{% load static %}
+    
+<head>  
+<link rel="stylesheet" href="{% static 'webhooks/index.css' %}">
+    <link rel="stylesheet" href="{% static 'webhooks/tv.css' %}">
+    
+    <script type="text/JavaScript">
+         <!--
+            function AutoRefresh( t ) {
+               setTimeout("location.reload(true);", t);
+            }
+         //-->
+      </script>
+    
+</head>  
+    
+    
+<body onload="JavaScript:AutoRefresh(10000);">
+
+<center>
+
+<h4>
+    Text 201-987-6983 to Vote
+    </h4>   
+     
+    
+
+<div class="row">
+  <div class="column">
+      
+    <h1 style="color:limegreen">
+      Song 1: Text "1"
+      </h1>
+      
+    <h2>
+        {{ song1 }}
+    </h2>
+    <h5>
+        Artist: {{ artist1 }}
+    </h5>
+    <h3>
+        Votes: {{ Var1 }}%
+      </h3>
+    
+  </div>
+  <div class="column">
+      
+    <h1 style="color:limegreen">
+      Song 2: Text "2"
+      </h1>
+      
+    <h2>
+        {{ song2 }}
+    </h2>
+    <h5>
+        Artist: {{ artist2 }}
+    </h5>
+    <h3>
+        Votes: {{ Var2 }}%
+      </h3>
+    
+  </div>
+    
+</div>  
+    
+    <h1 style="color:red">
+    Happy Holidays!
+    </h1>
+    
+    </center>
+
+
+</body>
+
+      
+</html>
+
+
+
+

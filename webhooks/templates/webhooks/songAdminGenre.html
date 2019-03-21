@@ -1,0 +1,53 @@
+<html>
+{% load static %}
+
+<meta http-equiv="refresh" content="0; url=songAdmin" />
+    
+<head>  
+<link rel="stylesheet" href="{% static 'webhooks/index.css' %}">
+</head>  
+<body>
+    
+    <h1>
+    Winning Song: {{ songWinner }}
+    </h1>
+    
+    <h1>
+    Winning Artist: {{ artistWinner }}
+    </h1>
+    
+    <h1>
+    Winner Votes: {{ winningVotes }}
+    </h1>
+    
+    <h1>
+    Total Votes: {{ totalVotes }}
+    </h1>
+    
+    <h1>
+    New Genre: {{ genre }}
+    </h1>
+    
+    
+    <h1>
+    <a href="fast">FAST</a>
+    </h1>
+    
+    <h1>
+    <a href="slow">SLOW</a>
+    </h1>
+    
+    <h1>
+    <a href="dance">DANCE</a>
+    </h1>
+      
+      <h1>
+    <a href="other">OTHER</a>
+    </h1>
+    
+    <h1>
+    <a href="christmas">CHRISTMAS</a>
+    </h1>
+    
+</body>
+</html>

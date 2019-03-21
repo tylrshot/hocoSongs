@@ -1,0 +1,101 @@
+<html>
+{% load static %}
+    
+<head>  
+<link rel="stylesheet" href="{% static 'webhooks/index.css' %}">
+    
+    <script type="text/JavaScript">
+         <!--
+            function AutoRefresh( t ) {
+               setTimeout("location.reload(true);", t);
+            }
+         //-->
+      </script>
+    
+</head>  
+<body onload="JavaScript:AutoRefresh(10000);">
+    
+    <div class="row">
+  <div class="column">
+      <h1>
+    Winning Song: {{ songWinner }}
+    </h1>
+    
+    <h1>
+    Winning Artist: {{ artistWinner }}
+    </h1>
+    
+    <h1>
+    Winner Votes: {{ winningVotes }}
+    </h1>
+    
+    <h1>
+    Total Votes: {{ totalVotes }}
+    </h1>
+    
+    <h1>
+    New Genre: {{ genre }}
+    </h1>
+    
+    
+    <h1>
+    <a href="fast">FAST</a>
+    </h1>
+    
+    <h1>
+    <a href="slow">SLOW</a>
+    </h1>
+    
+    <h1>
+    <a href="dance">DANCE</a>
+    </h1>
+      
+      <h1>
+    <a href="other">OTHER</a>
+    </h1>
+      
+      <h1>
+    <a href="christmas">CHRISTMAS</a>
+    </h1>
+    
+    
+  </div>
+  <div class="column">
+      
+    <h1>
+      Song 1:
+      </h1>
+      
+    <h1>
+        {{ song1 }}
+    </h1>
+    <h2>
+        {{ artist1 }}
+    </h2>
+    <h3>
+        Votes: {{ Var1 }}
+      </h3>
+      
+    <h1>
+      Song 2:
+      </h1>
+      
+    <h1>
+        {{ song2 }}
+    </h1>
+    <h2>
+        {{ artist2 }}
+    </h2>
+    <h3>
+        Votes: {{ Var2 }}
+      </h3>
+    
+  </div>
+    
+</div>    
+    
+    
+    
+    
+</body>
+</html>

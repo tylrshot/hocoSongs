@@ -1,0 +1,30 @@
+/* index.css */
+
+h1 {
+    font-size: 76;
+    color: greenyellow;
+}
+
+h4 {
+    font-size: 78;
+    color: white;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 72;
+    margin: 10px;
+}
+
+h5 {
+    font-size: 50;
+    margin: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-size: 42;
+    margin: 10px;
+}
+
